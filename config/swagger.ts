@@ -1,4 +1,3 @@
-// config/swagger.js
 const swaggerJsdoc = require("swagger-jsdoc");
 
 const options = {
@@ -10,7 +9,7 @@ const options = {
       description: "API para comparar preços de produtos em diferentes lojas.",
     },
   },
-  apis: ["./src/app/controller/*.ts"], // Caminho para os controladores da API
+  apis: ["./src/app/controller/*.ts"],
 };
 
 const specs = swaggerJsdoc(options);

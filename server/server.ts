@@ -1,4 +1,3 @@
-// server/server.ts
 import { Client } from "pg";
 import dotenv from "dotenv";
 
@@ -17,7 +16,6 @@ client
   .connect()
   .then(() => {
     console.log("Connected to PostgreSQL database");
-    // Execute other database-related operations here
   })
   .catch((error) => {
     console.error("Error connecting to PostgreSQL:", error.message);
