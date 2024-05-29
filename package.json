@@ -4,7 +4,7 @@
   "description": "Aplicação para pesquisa de preços. O intuito é fornecer de forma prática a comparação de preços de um determinado produto em lojas diversas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./src/app/app.ts"
   },
   "keywords": [],
   "author": "Isaac Costa",
